@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- Name        : Voltimetro.c
+ Name        : VOLTIMETRO.c
  Author      : $(author)
  Version     :
  Copyright   : $(copyright)
@@ -12,26 +12,6 @@
 #include "LPC17xx.h"
 #endif
 
-#include <cr_section_macros.h>
-
-// TODO: insert other include files here
-
-// TODO: insert other definitions and declarations here
-
-
-/*
-===============================================================================
- Name        : TP5.c
- Author      : $(author)
- Version     :
- Copyright   : $(copyright)
- Description : main definition
-===============================================================================
-*/
-
-#ifdef __USE_CMSIS
-#include "LPC17xx.h"
-#endif
 #include <cr_section_macros.h>
 
 #define aFIODIR 0x2009C000
@@ -83,7 +63,7 @@ int main(void) {
 	setup();
 
 	while (1) {
-		set(num1,num2);
+		set(num[num1],num[num2]);
 
 	}
 	return 0;
@@ -91,37 +71,50 @@ int main(void) {
 
 void setup() {
 	*FIODIR = 0x03FF; //Todos entradas menos los pines 0-10 que son salidas
-	NVIC_EnableIRQ(ADC_IRQn);
+	//NVIC_EnableIRQ(ADC_IRQn);
 
-	*PINSEL1 |= (1<<14)				// P0.23 Entrada ADC
+		LPC_SC -> PCONP |= 2;						//Enciendo Timer0
+		LPC_TIM0 -> TCR |= 2;						//Reset de TC
+		LPC_TIM0 -> PR = SystemCoreClock/(4*1000)-1;//1ms
+		LPC_TIM0 -> MCR = 1 << 10;					//Reset Match 3
+		LPC_TIM0 -> MR3 = 25;						//define Match 3 en 25
+		LPC_TIM0 -> EMR = 3 << 10;					//Selecciona match externo.
 
-	*PCONP |= (1<<12);  				//Enciendo ADC
-	*AD0CR |= (1<<21);				//  "		"
-	*AD0CR |= (11<<8);					// PCLK/12
-	*AD0CR |= (1<<0);					// Canal 0
+		LPC_SC -> PCONP |= (1<<12);					//Enciende ADC
+		LPC_PINCON -> PINSEL1 |=(1 << 14);			//Configuro entradas analogicas
+		LPC_PINCON -> PINSEL1 &=~(1<<15);
+		LPC_ADC -> ADCR |= (1<<0);					//Canal 0
+		LPC_ADC->ADCR |= (1 << 8); 					//Frecuencia/2
+		LPC_ADC->ADCR |= (1 << 21); 				//Prendo ADC
+		LPC_ADC->ADCR &= ~(1 << 27); 				//Flanco de MR3 de subida
+		LPC_ADC->ADCR |= (5 << 24); 				//Convierte en flanco de MR3
+		LPC_ADC->ADINTEN = 1; 						//Interrupcion ADC
 
-	*AD0CR |= (1<<24);				//Comienza la conversión
+		NVIC_EnableIRQ(ADC_IRQn);					//Habilito interrupcion por ADC
 
+		LPC_TIM0->TCR=1;
 }
 
 
 void ADC_IRQHandler(){
-	int valor=0;
 	num1=0;
 	num2=0;
-	valor =*ADDR0 & 0xFFF;
-	while(valor>124) //?????
-	{
-		num1++;
-		valor= valor
-	}
+	float value = 0;
+	if(LPC_ADC->ADDR0 & (1<<31)){			//Controlo de que canal es la muestra
+			value = (LPC_ADC->ADDR0>>4) & 0xfff;	//Almaceno valor muestreado
+
+			value=(value/4096)*33;
+			num2=value/10;
+			num1=(int)value%10;
+
+		}
 
 
-	*AD0CR |= (1<<24);
+
 }
 
 
-void set(int num2,int num1) {
+void set(int num1,int num2) {
 	/*
 	 * Funcionamiento:
 	 * El FIOSET pone en alto la salida cuando el bit correspondiente a su pin esta en 1.
@@ -139,6 +132,7 @@ void set(int num2,int num1) {
 	*FIOSET |= num1;
 	*FIOCLR |= ((~num1) & 0xFF);
 	*FIOSET |= (1<<8);
+
 	delay(1);
 	*FIOCLR |= (1<<8);
 	*FIOCLR |= 0xFF;
@@ -146,6 +140,7 @@ void set(int num2,int num1) {
 	*FIOSET |= num2;
 	*FIOCLR |= ((~num2) & 0xFF);
 	*FIOSET |= (1<<9);
+
 	delay(1);
 	*FIOCLR |= (1<<9);
 	*FIOCLR |= 0xFF;
@@ -154,6 +149,7 @@ void set(int num2,int num1) {
 }
 
 void delay(int ms){
-	int delay= (30000000/1000)*ms;
+	int volatile delay= (30000000/1000)*ms;
 	for (int i=0; i<delay; i++);
+
 }

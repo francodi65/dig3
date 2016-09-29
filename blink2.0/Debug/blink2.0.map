@@ -1,0 +1,400 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc175x_6x.o (SystemInit)
+/usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+/usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+                              /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+/usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/EsperaEnAssembler.o
+ .bss           0x00000000        0x0 ./src/EsperaEnAssembler.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/blink2.0.o
+ .text          0x00000000        0x0 ./src/blink2.0.o
+ .data          0x00000000        0x0 ./src/blink2.0.o
+ .bss           0x00000000        0x0 ./src/blink2.0.o
+ .rodata.FIO0DIR
+                0x00000000        0x4 ./src/blink2.0.o
+ .rodata.FIO0CLR
+                0x00000000        0x4 ./src/blink2.0.o
+ .rodata.FIO0SET
+                0x00000000        0x4 ./src/blink2.0.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0x88c ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x88c ./src/crp.o
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .group         0x00000000        0x8 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x0 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xb4 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x10 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x12d /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x1c /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x2e /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000       0x18 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x7af /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00000000      0x2c7 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000      0x174 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text.__aeabi_division_idiv0
+                0x00000000        0x2 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/EsperaEnAssembler.o
+LOAD ./src/blink2.0.o
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a
+START GROUP
+LOAD /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7-m/libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0x440
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x440 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x8 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x440 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000008 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x0 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x144 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e8                NMI_Handler
+                0x000001f0                HardFault_Handler
+                0x000001f8                MemManage_Handler
+                0x00000200                BusFault_Handler
+                0x00000208                UsageFault_Handler
+                0x00000210                SVC_Handler
+                0x00000218                DebugMon_Handler
+                0x00000220                PendSV_Handler
+                0x00000228                SysTick_Handler
+                0x00000230                TIMER2_IRQHandler
+                0x00000230                RIT_IRQHandler
+                0x00000230                I2C0_IRQHandler
+                0x00000230                USBActivity_IRQHandler
+                0x00000230                PWM1_IRQHandler
+                0x00000230                I2C1_IRQHandler
+                0x00000230                EINT2_IRQHandler
+                0x00000230                UART1_IRQHandler
+                0x00000230                EINT3_IRQHandler
+                0x00000230                CANActivity_IRQHandler
+                0x00000230                TIMER3_IRQHandler
+                0x00000230                UART0_IRQHandler
+                0x00000230                IntDefaultHandler
+                0x00000230                PLL0_IRQHandler
+                0x00000230                CAN_IRQHandler
+                0x00000230                PLL1_IRQHandler
+                0x00000230                SSP0_IRQHandler
+                0x00000230                I2S_IRQHandler
+                0x00000230                I2C2_IRQHandler
+                0x00000230                RTC_IRQHandler
+                0x00000230                TIMER0_IRQHandler
+                0x00000230                SPI_IRQHandler
+                0x00000230                EINT1_IRQHandler
+                0x00000230                TIMER1_IRQHandler
+                0x00000230                UART2_IRQHandler
+                0x00000230                ADC_IRQHandler
+                0x00000230                SSP1_IRQHandler
+                0x00000230                USB_IRQHandler
+                0x00000230                BOD_IRQHandler
+                0x00000230                WDT_IRQHandler
+                0x00000230                QEI_IRQHandler
+                0x00000230                EINT0_IRQHandler
+                0x00000230                DMA_IRQHandler
+                0x00000230                UART3_IRQHandler
+                0x00000230                MCPWM_IRQHandler
+                0x00000230                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000238       0xc4 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x44 ./src/blink2.0.o
+                0x00000300                main
+ .text.SystemInit
+                0x00000344       0xe4 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000344                SystemInit
+ .text.__weak_main
+                0x00000428        0x4 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                0x00000428                __main
+                0x00000428                __weak_main
+ *fill*         0x0000042c        0x4 ff
+ .text.__weak_main.__stub
+                0x00000430       0x10 linker stubs
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000440                . = ALIGN (0x4)
+
+.glue_7         0x00000440        0x0
+ .glue_7        0x00000440        0x0 linker stubs
+
+.glue_7t        0x00000440        0x0
+ .glue_7t       0x00000440        0x0 linker stubs
+
+.vfp11_veneer   0x00000440        0x0
+ .vfp11_veneer  0x00000440        0x0 linker stubs
+
+.v4_bx          0x00000440        0x0
+ .v4_bx         0x00000440        0x0 linker stubs
+
+.iplt           0x00000440        0x0
+ .iplt          0x00000440        0x0 ./src/EsperaEnAssembler.o
+
+.rel.dyn        0x00000440        0x0
+ .rel.iplt      0x00000440        0x0 ./src/EsperaEnAssembler.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000440                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000440                __exidx_end = .
+                0x00000440                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000440
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x8 load address 0x00000440
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data          0x10000000        0x8 ./src/EsperaEnAssembler.o
+                0x10000000                EsperaEnAssembler
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _edata = .
+
+.igot.plt       0x10000008        0x0 load address 0x00000448
+ .igot.plt      0x10000008        0x0 ./src/EsperaEnAssembler.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000008        0x0
+                0x10000008                _bss = .
+ *(.bss*)
+ *(COMMON)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000008        0x0
+                0x10000008                _noinit = .
+ *(.noinit*)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74b2                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(blink2.0.axf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x21 ./src/EsperaEnAssembler.o
+ .ARM.attributes
+                0x00000021       0x33 ./src/blink2.0.o
+ .ARM.attributes
+                0x00000054       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000087       0x33 ./src/crp.o
+ .ARM.attributes
+                0x000000ba       0x33 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x000000ed       0x33 /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/blink2.0.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/cr_startup_lpc175x_6x.o
+ .comment       0x0000006e       0x6f ./src/crp.o
+ .comment       0x0000006e       0x6f /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x0000006e       0x6e /usr/local/lpcxpresso_8.2.0_647/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+
+.debug_line     0x00000000      0x57e
+ .debug_line    0x00000000       0x4a ./src/EsperaEnAssembler.o
+ .debug_line    0x0000004a      0x208 ./src/blink2.0.o
+ .debug_line    0x00000252       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x00000327       0x7c ./src/crp.o
+ .debug_line    0x000003a3      0x1db /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_info     0x00000000      0x71e
+ .debug_info    0x00000000       0x76 ./src/EsperaEnAssembler.o
+ .debug_info    0x00000076       0xfe ./src/blink2.0.o
+ .debug_info    0x00000174      0x253 ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x000003c7       0x3f ./src/crp.o
+ .debug_info    0x00000406      0x318 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_abbrev   0x00000000      0x2c3
+ .debug_abbrev  0x00000000       0x14 ./src/EsperaEnAssembler.o
+ .debug_abbrev  0x00000014       0x9e ./src/blink2.0.o
+ .debug_abbrev  0x000000b2       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000001a7       0x36 ./src/crp.o
+ .debug_abbrev  0x000001dd       0xe6 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_aranges  0x00000000      0x100
+ .debug_aranges
+                0x00000000       0x20 ./src/EsperaEnAssembler.o
+ .debug_aranges
+                0x00000020       0x20 ./src/blink2.0.o
+ .debug_aranges
+                0x00000040       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x000000c0       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000d8       0x28 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000       0x98
+ .debug_ranges  0x00000000       0x10 ./src/blink2.0.o
+ .debug_ranges  0x00000010       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000080       0x18 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macro    0x00000000     0x2581
+ .debug_macro   0x00000000       0x90 ./src/blink2.0.o
+ .debug_macro   0x00000090      0x88c ./src/blink2.0.o
+ .debug_macro   0x0000091c       0x1c ./src/blink2.0.o
+ .debug_macro   0x00000938       0x2e ./src/blink2.0.o
+ .debug_macro   0x00000966       0x10 ./src/blink2.0.o
+ .debug_macro   0x00000976      0x12d ./src/blink2.0.o
+ .debug_macro   0x00000aa3      0x5b2 ./src/blink2.0.o
+ .debug_macro   0x00001055       0x18 ./src/blink2.0.o
+ .debug_macro   0x0000106d      0x7af ./src/blink2.0.o
+ .debug_macro   0x0000181c      0x2c7 ./src/blink2.0.o
+ .debug_macro   0x00001ae3       0x82 ./src/blink2.0.o
+ .debug_macro   0x00001b65       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00001b82       0x1a ./src/crp.o
+ .debug_macro   0x00001b9c       0x34 ./src/crp.o
+ .debug_macro   0x00001bd0      0x12b /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_macro   0x00001cfb      0x886 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000     0x8959
+ .debug_str     0x00000000     0x815a ./src/blink2.0.o
+                               0x81db (size before relaxing)
+ .debug_str     0x0000815a      0x1c2 ./src/cr_startup_lpc175x_6x.o
+                               0x26a8 (size before relaxing)
+ .debug_str     0x0000831c       0xe9 ./src/crp.o
+                               0x25c0 (size before relaxing)
+ .debug_str     0x00008405      0x554 /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                               0x8137 (size before relaxing)
+
+.debug_frame    0x00000000      0x1dc
+ .debug_frame   0x00000000       0x30 ./src/blink2.0.o
+ .debug_frame   0x00000030      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000001a0       0x3c /home/kalantos/LPCXpresso/workspace/CMSISv2p00_LPC17xx/Debug/libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)

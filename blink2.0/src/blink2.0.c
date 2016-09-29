@@ -1,7 +1,7 @@
 /*
 ===============================================================================
  Name        : blink2.0.c
- Author      : $(author)
+ Author      : Grupo 11 Di Lorenzo y Del Boca
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -33,26 +33,27 @@ void setup();
 
 // TODO: insert other definitions and declarations here
 
+int state=0;
+int retardo=10000000;
+
 int main(void) {
+	setup();
 	while(1){
-		*FIOCLR |= (1<<22);
 		EsperaEnAssembler(retardo,state);
     }
     return 0 ;
 }
-void void EINT3_IRQHandler(void){
+void EINT3_IRQHandler(void){
 	*IntClr=0xff;
 	for(int i=0;i<6000000;i++);
 	if(state==0){
-		state=2;
+		state=1;
 	}else{
 		state=0;
 	}
 }
 void setup(){
 	*FIO0DIR&=~(2<<0);
-	int state=0;
-	int retardo=10000000;
 	*FIO0DIR|=(1<<22);
 	*IntEnR|=(1<<1);
 	NVIC_EnableIRQ(EINT3_IRQn);

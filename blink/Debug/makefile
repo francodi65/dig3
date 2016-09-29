@@ -23,25 +23,25 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: blink2.0.axf
+all: blink.axf
 
 # Tool invocations
-blink2.0.axf: $(OBJS) $(USER_OBJS)
+blink.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="blink2.0.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "blink2_0_Debug.ld" -o "blink2.0.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="blink.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "blink_Debug.ld" -o "blink.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) blink2.0.axf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) blink.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "blink2.0.axf"; # arm-none-eabi-objcopy -v -O binary "blink2.0.axf" "blink2.0.bin" ; # checksum -p LPC1769 -d "blink2.0.bin";
+	-arm-none-eabi-size "blink.axf"; # arm-none-eabi-objcopy -v -O binary "blink.axf" "blink.bin" ; # checksum -p LPC1769 -d "blink.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents

@@ -1,4 +1,4 @@
-src/blink2.0.o src/blink2.0.d: ../src/blink2.0.c \
+src/blink.o src/blink.d: ../src/blink.c \
  C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\inc/LPC17xx.h \
  C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\inc/core_cm3.h \
  C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\inc/core_cmInstr.h \

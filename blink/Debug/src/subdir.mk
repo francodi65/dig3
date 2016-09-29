@@ -3,34 +3,23 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
-S_SRCS += \
-../src/EsperaEnAssembler.s 
-
 C_SRCS += \
-../src/blink2.0.c \
+../src/blink.c \
 ../src/cr_startup_lpc175x_6x.c \
 ../src/crp.c 
 
 OBJS += \
-./src/EsperaEnAssembler.o \
-./src/blink2.0.o \
+./src/blink.o \
 ./src/cr_startup_lpc175x_6x.o \
 ./src/crp.o 
 
 C_DEPS += \
-./src/blink2.0.d \
+./src/blink.d \
 ./src/cr_startup_lpc175x_6x.d \
 ./src/crp.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-src/%.o: ../src/%.s
-	@echo 'Building file: $<'
-	@echo 'Invoking: MCU Assembler'
-	arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\PC\Documents\LPCXpresso_8.2.0_647\workspace\CMSISv2p00_LPC17xx\inc" -g3 -mcpu=cortex-m3 -mthumb -specs=redlib.specs -o "$@" "$<"
-	@echo 'Finished building: $<'
-	@echo ' '
-
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'

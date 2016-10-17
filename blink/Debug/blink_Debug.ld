@@ -5,7 +5,7 @@
  * Generated linker script file for LPC1769
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 05/09/2016 17:51:47
+ * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 12/10/2016 16:42:43
  */
 
 INCLUDE "blink_Debug_library.ld"
